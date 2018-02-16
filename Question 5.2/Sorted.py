@@ -8,5 +8,5 @@ for line in sys.stdin:
 	pr = float(val.split(' ',1)[0])
 	data.append((node, pr))
 
-for a in sorted(data, key=lambda x: x[1], reverse=True)[:20]:
+for a in sorted(data, key=lambda x: x[1], reverse=True)[:10]:
 	print(a)
